@@ -22,6 +22,8 @@ In addition, I also use the previous implementation (was used with the version o
 - `ties = c("discrete", "rounded")`
 - `interval_types = c("Wald", "betaWald")`
 
-## Results
+## Code and results
 
-Code to estimate the quantiles and their confidence intervals 
+Code to estimate the quantiles and their confidence intervals and then visualise the results is present in an [R script](quantiles_dummy_sample.R) as well as in a [Quarto document](quantiles_dummy_sample.qmd), which is rendered and can be viewed with results [here](quantiles_dummy_sample.md).
+
+The code environment and the packages used are handled with [renv](https://rstudio.github.io/renv/index.html), the package versions used are recorded/specified in the [renv.lock file](renv.lock).
